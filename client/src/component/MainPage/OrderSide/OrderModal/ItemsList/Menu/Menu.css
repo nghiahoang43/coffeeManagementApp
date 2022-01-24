@@ -1,0 +1,10 @@
+.menu {
+  background-color: transparent;
+  border-radius: 7px;
+  height: 70%;
+  overflow: scroll;
+}
+
+.menu::-webkit-scrollbar {
+  display: none;
+}

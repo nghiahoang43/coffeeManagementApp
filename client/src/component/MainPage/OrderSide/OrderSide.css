@@ -1,0 +1,253 @@
+.order-side {
+  background-color: var(--third-color);
+  border: none;
+  outline: none;
+  width: 36%;
+  height: 650px;
+  margin: 25px 15px;
+  border-radius: 10px;
+}
+
+.order-header {
+  display: flex;
+}
+
+.order-num {
+  background-color: transparent;
+  color: var(--fourth-color);
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 20%;
+  height: 30px;
+}
+
+.order-active,
+.order-inactive {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 20px;
+  width: 30%;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.order-active {
+  background-color: var(--active-color);
+}
+
+.order-inactive {
+  background-color: var(--inactive-color);
+}
+
+.MuiAutocomplete-root {
+  width: 90%;
+}
+
+.order-search {
+  display: flex;
+  margin: 25px;
+  background-color: #c9ccd5;
+  padding: 5px 10px;
+  border-radius: 5px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.add-button {
+  width: 100px;
+  height: 30px;
+  background-color: var(--inactive-color);
+  border-radius: 3px;
+  margin-top: 20px;
+  padding-top: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: 0.2s;
+}
+
+.add-button:hover {
+  background-color: var(--active-color);
+  color: white;
+}
+
+.order-main {
+  background-color: var(--inactive-color);
+  border: none;
+  outline: none;
+  width: 90%;
+  height: 480px;
+  margin: 0px 25px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.order-list-header {
+  display: flex;
+  background-color: var(--active-color);
+  padding: 5px 10px;
+  border-radius: 7px 7px 0 0;
+  overflow: hidden;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.order-list-header-name {
+  width: 30%;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.order-list-header-price {
+  width: 30%;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.order-list-header-quantity {
+  width: 20%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.order-list-header-total {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 30px;
+  text-align: right;
+}
+
+.order-footer {
+  display: flex;
+}
+
+.print-invoice {
+  background-color: var(--active-color);
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 30px;
+  width: 35%;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
+
+.print-invoice:hover {
+  transform: scale(1.05);
+}
+
+.order-footer .total-price {
+  background-color: #80ed99;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 30px;
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.status-announce {
+  background-color: var(--inactive-color);
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 10px 0;
+  margin: 0px 25px;
+  margin-top: 105px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.order-list {
+  margin: 10px 0;
+  height: 70%;
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.order-list::-webkit-scrollbar {
+  display: none;
+}
+
+.total-price-container {
+  display: flex;
+  text-align: left;
+  margin: 0 20px;
+  padding-right: 3px;
+  padding-top: 7px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.total-label {
+  height: 60px;
+  float: right;
+  font-size: 20px;
+  font-style: italic;
+  width: 75%;
+  justify-content: center;
+  padding-left: 10px;
+  line-height: 50px;
+}
+
+.total-price {
+  height: 60px;
+  text-align: right;
+  float: right;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.divider {
+  border-color: var(--primary-color) !important;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background-color: var(--inactive-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 24;
+  padding: 10px;
+  min-height: 60vh;
+}
+
+.initial-order-side {
+  background-color: var(--third-color);
+  border: none;
+  outline: none;
+  width: 36%;
+  height: 90vh;
+  margin: 25px 15px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.initial-announce {
+  background-color: var(--inactive-color);
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 10px 0;
+  margin: 0px 25px;
+  margin-top: 50px;
+  border-radius: 10px;
+  font-style: italic;
+}

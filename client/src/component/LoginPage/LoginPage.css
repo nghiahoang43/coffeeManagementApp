@@ -1,0 +1,8 @@
+.login-page {
+  min-height: 100vh;
+  background-image: url('/Users/nghiahoang/Documents/nghiahoang/Study/CoffeeManagement/client/wp.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

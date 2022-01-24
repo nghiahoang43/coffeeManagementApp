@@ -1,0 +1,15 @@
+.main-bg {
+  display: flex;
+  background: #c68b59;
+  min-height: 100vh;
+  position: relative;
+}
+
+@media only screen and (max-width: 760px) {
+  .table-side {
+    width: 100% !important;
+  }
+  .order-side {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.items-side {
+  width: 50%;
+  margin: 0 10px 10px 10px;
+  background-color: var(--third-color);
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.category-container {
+  display: flex;
+  width: 100%;
+  background-color: var(--active-color);
+  padding: 6px 3px;
+  border-radius: 7px 7px 0 0;
+}
+
+.search-bar {
+  padding: 15px 25px;
+  overflow: hidden;
+  background-color: var(--active-color);
+}

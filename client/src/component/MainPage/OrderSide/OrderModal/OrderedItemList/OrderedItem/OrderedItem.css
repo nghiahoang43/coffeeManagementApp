@@ -1,0 +1,66 @@
+.ord-item {
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+    border: none
+}
+
+.ord-item-name {
+    background-color: white;
+    width: 30%;
+    padding-top: 13px;
+    margin-right: 40px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.ord-item-body {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+}
+
+.ord-delete-btn {
+    width: 10%;
+    padding-top: 13px;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+}
+
+.ord-item-price {
+    width: 30%;
+    margin: 0 10px 0 14px;
+    padding-top: 3px;
+}
+
+.ord-item-count-modify {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.count-up, .count-down {
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.ord-item-count {
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.ord-item-count-input {
+    width: 24px;
+    border: none;
+    outline: none;
+}
+
+.ord-item-total {
+    margin-left: 10px;
+    padding-top: 3px;
+}

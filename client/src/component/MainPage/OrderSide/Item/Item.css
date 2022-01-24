@@ -1,0 +1,53 @@
+.item {
+  display: flex;
+  background-color: white;
+  margin: 0 10px 10px 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+
+.item-name {
+  background-color: var(--active-color);
+  width: 30%;
+  padding-top: 13px;
+  text-align: center;
+  word-wrap: break-word;
+  color: white;
+}
+
+.item-body {
+  padding: 10px;
+  width: 70%;
+  display: flex;
+}
+
+.delete-btn {
+  width: 10%;
+  padding-top: 13px;
+  background-color: #ff1700;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #cd1818;
+}
+
+.item-price {
+  width: 40%;
+  margin: 0 10px;
+  padding-top: 3px;
+}
+
+.item-quantity {
+  width: 30%;
+}
+
+.item-total {
+  width: 30%;
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-left: 45px;
+}

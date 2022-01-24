@@ -1,0 +1,21 @@
+.category {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  width: 30%;
+  margin: 3px;
+  border-radius: 5px;
+  padding: 5px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.active-category {
+  opacity: 1;
+}
+
+.inactive-category {
+  opacity: 0.5;
+}

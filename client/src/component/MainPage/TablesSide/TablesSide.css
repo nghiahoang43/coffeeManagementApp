@@ -1,0 +1,16 @@
+.table-side {
+  background-color: var(--third-color);
+  border: none;
+  outline: none;
+  padding: 20px 0 20px 20px;
+  width: 60%;
+  height: 90vh;
+  margin: 25px 15px;
+  border-radius: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.table-side::-webkit-scrollbar {
+  display: none;
+}
